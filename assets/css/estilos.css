@@ -1,0 +1,106 @@
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    background-color: black
+}
+
+hr{
+    height: 7px;
+    background-color: silver
+}
+
+.colorfondo {
+    background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) ;
+}
+
+.navbar {
+    background-color:0;
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    opacity: 70%;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-link {
+    color: white;
+    margin-right: 25px;
+}
+
+
+.card {
+    .bg-info {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity)) !important;
+    }
+
+    color: white
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn {
+    border: 1px solid white
+}
+
+#exampleInputMessage {
+min-width: 100%;
+
+}
+
+
+@media (max-width: 768px) { 
+    #quienes_somos {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar.bg-light { /*Transparencia del nav */
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+}
+
+destacados-carta-texto {
+    background-color: var(--turquesa);
+    color: var(--blanco) !important;
+    border-bottom-left-radius: 5px; /*Borde en la parte inferior del parrafo para que coincida con la forma de la tarjeta */
+    border-bottom-right-radius: 5px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+}
